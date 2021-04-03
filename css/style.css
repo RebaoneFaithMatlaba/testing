@@ -1,0 +1,66 @@
+/*coding for navigation bars start here*/
+body{
+    background-color: #171c18;
+}
+/*coding for computer navigation bars start here*/
+.computer-navigation{
+    height:90px;
+    background-color:#171c18 !important;
+}
+.computer-li{
+    margin-right:40px;
+}
+.detail-wrapper{
+    background-color:#ffc7d1 !important;
+}
+.contact-li{
+    margin-left:50px;
+}
+/*coding for computer navigation bars ended here*/
+
+/*coding for small navigation start here*/
+.phone-navigation{
+    height:100px;
+    background-color:#171c18;
+}
+.phone-logo{
+    height:90px;
+}
+.fa-bars{
+    font-size:24px;
+}
+/*coding for navigation bars ended here*/
+
+
+/*background-wrapper start here*/
+
+.background-wrapper{
+    background-color:#ffc7d1;
+}
+.background-image{
+    margin-top:-40px;
+}
+.appointment-btn{
+    background-color:#344555 !important;
+}
+.quote-btn{
+    background-color:#344555 !important;
+}
+.cosmetics-caption{
+    font-size:45px !important;
+}
+/*background-wrapper ended here*/
+
+/*content-wrapper coding start here*/
+.content-wrapper{
+    background-color:#ECEFF1;
+}
+/*small phones*/
+
+.phone-background-wrapper{
+    background-color:#ffc7d1;
+}
+.mask{
+    background-color:#f48fb19c;
+}
+/*content-wrapper coding ended here*/
