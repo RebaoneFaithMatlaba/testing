@@ -60,10 +60,10 @@ body{
     margin-top:-50px;
 }
 .appointment-btn{
-    background-color:#344555 !important;
+    background-color:#00284e !important;
 }
 .quote-btn{
-    background-color:#344555 !important;
+    background-color:#00284e !important;
 }
 .cosmetics-caption{
     font-size:22pt !important;
@@ -97,10 +97,13 @@ body{
     margin-top:-60px;
 }
 .phone-welcome,.phone-everything{
-    color:#000000 !important;
+    color:#ffffff !important;
+}
+.inner-wrapper{
+    background-color:#f50d5754;
 }
 .mask{
-    background-color:#f48fb19c !important;
+    background-color:#000000b3 !important;
 }
 /*content-wrapper coding ended here*/
 
