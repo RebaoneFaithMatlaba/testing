@@ -5,10 +5,15 @@ body{
 /*coding for computer navigation bars start here*/
 .computer-navigation{
     height:90px;
-    background-color:#171c18 !important;
+    background-color:#ffffff !important;
 }
 .computer-li{
     margin-right:40px;
+    font-size:12pt !important;
+}
+.computer-li a{
+    color:black !important;
+    font-weight:bolder !important;
 }
 .detail-wrapper{
     background-color:#ffc7d1 !important;
@@ -16,18 +21,32 @@ body{
 .contact-li{
     margin-left:50px;
 }
+
+/*queries*/
+@media screen and (min-width:0px) and (max-width: 1343px) {
+   .computer-li{
+     margin-right:20px !important;
+   }
+}
+
+
+
+
+/*queries ended here*/
 /*coding for computer navigation bars ended here*/
 
 /*coding for small navigation start here*/
 .phone-navigation{
     height:100px;
-    background-color:#171c18;
+    background-color:#ffffff;
 }
 .phone-logo{
     height:90px;
 }
 .fa-bars{
     font-size:24px;
+    color:black;
+    font-size:22pt;
 }
 /*coding for navigation bars ended here*/
 
@@ -38,7 +57,7 @@ body{
     background-color:#ffc7d1;
 }
 .background-image{
-    margin-top:-40px;
+    margin-top:-50px;
 }
 .appointment-btn{
     background-color:#344555 !important;
@@ -47,7 +66,21 @@ body{
     background-color:#344555 !important;
 }
 .cosmetics-caption{
-    font-size:45px !important;
+    font-size:22pt !important;
+}
+.welcome-caption{
+    font-size:34pt !important;
+}
+.hidden-form{
+    position:absolute;
+    top:160px;
+    right:20px;
+    background-color:#003d77d1;
+    visibility:hidden;
+  
+}
+.book-btn{
+    background-color:#ff244b !important;
 }
 /*background-wrapper ended here*/
 
@@ -60,7 +93,49 @@ body{
 .phone-background-wrapper{
     background-color:#ffc7d1;
 }
+.phone-background-image{
+    margin-top:-60px;
+}
+.phone-welcome,.phone-everything{
+    color:#000000 !important;
+}
 .mask{
-    background-color:#f48fb19c;
+    background-color:#f48fb19c !important;
 }
 /*content-wrapper coding ended here*/
+
+
+/*conten2-wrapper coding start here*/
+.content2-wrapper{
+    background-color:#ffc7d1;
+}
+.phone-about-background-image{
+    margin-top:0px !important;
+}
+.phone-about{
+    font-size:27pt;
+}
+.phone-about-sentence{
+    font-size:13pt;
+    font-weight:bolder !important;
+}
+/*content2-wrapper coding ended here*/
+
+
+
+
+
+
+
+
+/*coding for phone-navigation-list*/
+.phone-navigation-list{
+    display:none;
+    position:absolute !important;
+    top:100px;
+    height:500px;
+    background-color:#f8a4bd !important;
+}
+.phone-li{
+    margin-top:30px;
+}
