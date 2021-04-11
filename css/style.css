@@ -137,8 +137,27 @@ body{
     position:absolute !important;
     top:100px;
     height:500px;
-    background-color:#f8a4bd !important;
+    background-color:#d0698f !important;
 }
 .phone-li{
     margin-top:30px;
 }
+
+
+
+
+
+
+/*coding for media queries start here*/
+
+
+@media screen and (min-width:763px) and (max-width:991px){
+    .background-image{
+        height:360px;
+    }
+    .welcome-caption{
+        font-size:24pt !important;
+    }
+}
+
+/*coding for media queries ended here*/
